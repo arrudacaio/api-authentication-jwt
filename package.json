@@ -1,0 +1,18 @@
+{
+  "name": "api-authentication-jwt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/arrudacaio/api-authentication-jwt.git",
+  "author": "Caio Arruda <caio.arruda@ccc.ufcg.edu.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  }
+}
